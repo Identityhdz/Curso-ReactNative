@@ -7,7 +7,7 @@ export const BasicTypes = () => {
 
   return (
     <>
-      <h3>Tipos basicos</h3>
+      <h3>1.- Tipos basicos</h3>
       Personajes del mundo de nintendo: {charterNames.map(item => item.name + ' ')}
       <h4>Hola soy {name} y tengo {age} años</h4>
       <h3>Programo en algunos lenguajes como {languages.join(', ')}</h3>
