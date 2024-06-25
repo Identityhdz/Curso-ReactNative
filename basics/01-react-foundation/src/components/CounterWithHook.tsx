@@ -1,4 +1,3 @@
-import { useState } from "react"
 import { useCounter } from "../hooks/useCounter"
 
 export const CounterWhitHook = () => {
@@ -10,12 +9,12 @@ export const CounterWhitHook = () => {
 
   return (
     <>
-        <h3>Hook - UseState</h3>
+        <h3>UseState - Hook</h3>
         <h4>Contador: <small>{count}</small></h4>
         <div>
-          <button onClick={() => operation(true) }>+1</button>
+          <button onClick={() => operation(true) }>( + ) Suma</button>
           &nbsp;
-          <button onClick={()=> operation(false)}>-1</button>
+          <button onClick={()=> operation(false)}>( - ) Resta</button>
         </div>
     </>
   )

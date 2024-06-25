@@ -1,6 +1,6 @@
 // import {BasicFunctions, BasicTypes, ObjectLiterals} from "./typescript"
 
-import { Login } from "./components"
+import { Counter, Login } from "./components"
 import { CounterWhitHook } from "./components/CounterWithHook"
 
 
