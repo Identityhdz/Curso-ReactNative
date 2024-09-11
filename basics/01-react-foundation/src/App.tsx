@@ -1,6 +1,6 @@
 // import {BasicFunctions, BasicTypes, ObjectLiterals} from "./typescript"
 
-import { Counter, Login } from "./components"
+import { Counter, Login, UsersPage } from "./components"
 import { CounterWhitHook } from "./components/CounterWithHook"
 
 
@@ -12,8 +12,9 @@ function App() {
       {/* <ObjectLiterals /> */}
       {/* <BasicFunctions /> */}
       {/* <Counter /> */}
-      <CounterWhitHook/>
-      <Login/>
+      {/* <CounterWhitHook/> */}
+      {/* <Login/> */}
+      <UsersPage />
     </main>
   )
 }
